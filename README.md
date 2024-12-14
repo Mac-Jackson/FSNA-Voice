@@ -2,16 +2,18 @@
 <img src="https://i.imgur.com/mPP5trz.png" alt="Voice Over IP Logo"/>
 </p>
 
-<h1>Connect VOIP Phones</h1>
-This tutorial focus on the implementation and configuration of Voice over IP (VOIP).<br />
+<h1>Connect VoIP Phones</h1>
+This tutorial focus on the implementation and configuration of Voice over IP (VoIP).<br />
 
 
 <h2>Networking Technologies Used</h2>
 
-- SSH (Secure Shell) Version 2
-- RSA Cryptographic Keys
-- VTY Lines
-- Domain Name System (DNS)
+- VoIP (Voice over IP)
+- DHCP (Dynamic Host Configuration Protocol)
+- CME (Cisco Unified Communications Manager Exspress)
+- Directory Numbers (DN)
+- Access Control Lists (ACL)
+- QoS (Quality of Service)
 
 
 <h2>Environments Used </h2>
@@ -23,13 +25,21 @@ This tutorial focus on the implementation and configuration of Voice over IP (VO
 <h2>Tools Used </h2>
 
 - Cisco Packet Tracer
+- Cisco Router
+- Cisco Switches
+- VoIP Phones
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1  Configure SSH on a Cisco IOS Router or Switch
-- Step 2  Add a Domain Name to the device (FSNA.Local)
-- Step 3  Generate the RSA Crypto Keys - 1024 bit minimum, 2048 recommended
-- Step 4  Enable SSH Version 2
+- Step 1  Voice DHCP and CME configuration are already in place on FSNA-RTR
+- Step 2  Connect VoIP Phones to each corresponding switch
+- Step 3  Configure Directory Numbers
+- Step 4  Confirm Phone Registration
+- Step 5  Confirm Internal Dialing
+- Step 6  Confirm Outbound Dialing
+- Step 7  Review VoIP Configurations on FSNA-RTR
+- Step 8  Review Access Control List allowing VoIP Provider
+- Step 9  Review VoIP Quality of Service across the WAN
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
