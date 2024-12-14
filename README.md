@@ -43,34 +43,101 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/EKj7xBG.png" height="80%" width="80%" alt="FSNA-Security"/>
+<img src="https://i.imgur.com/k1Mswpi.png" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
- Configure SSH and Disable Telnet
- (config)#ip domain-name fsna.local
- (config)#crypto key generate rsa (Modulus: 2048)
- (config)#ip ssh version 2
- (config)#line vty 0 15
- (config-line)#transport input ssh
- (config-line)#transport output ssh
+ Using a straight-through cable connect Phone A to FSNA-SW1
+ 
+ 
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/AUoVis6.png" height="80%" width="80%" alt="FSNA-Security"/>
+<img src="https://i.imgur.com/iUk1KhJ.png" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
-Enable SSH version 2
+ #show running-config (on FSNA-RTR, to verify ephone 1 is automatically added)
 </p>
 <br />
 
 
 
 <p>
-<img src="https://i.imgur.com/8dNFJuE.png" height="80%" width="80%" alt="FSNA-Security"/>
+<img src="https://i.imgur.com/VMzu0bz.png" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
-Lock Down for no Telnet Access.
+Using a straight-through cable connect Phone B to FSNA-SW2
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/1jLDU1H.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+#show running-config (on FSNA-RTR, to verify ephone 2 is automatically added)
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/7EaBoFG.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Configure Directory Numbers
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/XsLWZMA.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Confirm Phone Registration
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/xEcMH1V.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Confirm Internal & Outbound Dialing
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/aFWvA8C.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Review VoIP Configurations on FSNA-RTR
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/uHBPpnn.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Review Access Control List allowing VoIP Provider
+</p>
+<br />
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Pi8cPnA.png" height="80%" width="80%" alt="FSNA-Voice"/>
+</p>
+<p>
+Review VoIP Quality of Service across the WAN
 </p>
 <br />
 </p>
