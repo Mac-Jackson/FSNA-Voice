@@ -43,18 +43,18 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/k1Mswpi.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/590f7e5b-4720-41e2-8272-a37c595a20fd" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
  Using a straight-through cable, connect Phone A to FSNA-SW1
  
- 
+
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/iUk1KhJ.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/c39cbbb7-34c2-4383-bb2b-a1a292386324" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
  #show running-config (on FSNA-RTR, to verify ephone 1 is automatically added)
@@ -62,9 +62,8 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 <br />
 
 
-
 <p>
-<img src="https://i.imgur.com/VMzu0bz.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/0be839aa-9166-48a4-ab98-c4067f0d40b6" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Using a straight-through cable, connect Phone B to FSNA-SW2
@@ -74,7 +73,7 @@ Using a straight-through cable, connect Phone B to FSNA-SW2
 <br />
 
 <p>
-<img src="https://i.imgur.com/1jLDU1H.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/13ad2c51-b2a2-4898-a770-269fbe8f00e4" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 #show running-config (on FSNA-RTR, to verify ephone 2 is automatically added)
@@ -83,8 +82,9 @@ Using a straight-through cable, connect Phone B to FSNA-SW2
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/7EaBoFG.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/cf53b4e9-0747-4925-8790-1fda6344f817" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Configure Directory Numbers
@@ -94,7 +94,7 @@ Configure Directory Numbers
 <br />
 
 <p>
-<img src="https://i.imgur.com/XsLWZMA.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/19553c81-15e9-4f53-afb2-7f22f447a842" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Confirm Phone Registration
@@ -104,7 +104,7 @@ Confirm Phone Registration
 <br />
 
 <p>
-<img src="https://i.imgur.com/xEcMH1V.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/45fc3991-b144-4c4a-af43-aa89e69e0914" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Confirm Internal & Outbound Dialing
@@ -113,8 +113,9 @@ Confirm Internal & Outbound Dialing
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/aFWvA8C.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/a9ac06f4-23d3-4690-aa36-f6cfa26e1094" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Review VoIP Configurations on FSNA-RTR
@@ -123,8 +124,9 @@ Review VoIP Configurations on FSNA-RTR
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/uHBPpnn.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/94d0d0c1-dcc3-4c47-8800-4f2cceed4786" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Review Access Control List allowing VoIP Provider
@@ -133,8 +135,9 @@ Review Access Control List allowing VoIP Provider
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/Pi8cPnA.png" height="80%" width="80%" alt="FSNA-Voice"/>
+<img src="https://github.com/user-attachments/assets/65dbb67b-7c51-470c-8a13-3af4b5c35706" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
 Review VoIP Quality of Service across the WAN
