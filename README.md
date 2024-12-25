@@ -10,7 +10,7 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 
 - VoIP (Voice over IP)
 - DHCP (Dynamic Host Configuration Protocol)
-- CME (Cisco Unified Communications Manager Exspress)
+- CME (Cisco Unified Communications Manager Express)
 - Directory Numbers (DN)
 - Access Control Lists (ACL)
 - QoS (Quality of Service)
@@ -46,7 +46,7 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 <img src="https://i.imgur.com/k1Mswpi.png" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
- Using a straight-through cable connect Phone A to FSNA-SW1
+ Using a straight-through cable, connect Phone A to FSNA-SW1
  
  
 
@@ -67,7 +67,7 @@ This tutorial focus on the implementation and configuration of Voice over IP (Vo
 <img src="https://i.imgur.com/VMzu0bz.png" height="80%" width="80%" alt="FSNA-Voice"/>
 </p>
 <p>
-Using a straight-through cable connect Phone B to FSNA-SW2
+Using a straight-through cable, connect Phone B to FSNA-SW2
 </p>
 <br />
 </p>
