@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/mPP5trz.png" alt="Voice Over IP Logo"/>
+<img src="https://github.com/user-attachments/assets/f7bc25d8-3276-48ae-a47f-5d1de9584c53" alt="Voice Over IP Logo"/>
 </p>
 
 <h1>Connect VoIP Phones</h1>
